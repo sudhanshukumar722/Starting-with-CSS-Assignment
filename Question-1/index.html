@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    h1{
+      color: blue;
+    }
+    .box{
+      color:pink;
+    }
+  </style>
+  
+</head>
+<body>
+  <div>
+    <!-- Color change using Inline CSS-->
+  <h1 style="color: red;">Hello world! (color change using inline css)</h1>
+
+  <!-- Color change using internal CSS-->
+  <h1>Hello World! (color change using internal css)</h1>
+
+  <!-- Color change using external CSS-->
+  <h1 class="external">Hello World! (color change using external css)</h1>
+  </div>
+  
+   <!-- Demonstrating the order when we targeting the same element with inline,internal and external css-->
+  <div>
+      <h1 style="color: brown;" class="box">Preference order of CSS ---- Inline > Internal > External</h1> 
+  <div>
+</body>
+</html>
